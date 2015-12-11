@@ -1,0 +1,32 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "php-app",
+      "image": "php:fpm",
+      "environment": [
+        {
+          "name": "Container",
+          "value": "PHP"
+        }
+      ],
+      "essential": true,
+      "memory": 128,
+    },
+    {
+      "name": "nginx-proxy",
+      "image": "nginx",
+      "essential": true,
+      "memory": 128,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ],
+      "links": [
+        "php-app"
+      ]
+    }
+  ]
+}
