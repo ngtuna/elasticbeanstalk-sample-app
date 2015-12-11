@@ -11,7 +11,7 @@
         }
       ],
       "essential": true,
-      "memory": 128,
+      "memory": 128
     },
     {
       "name": "nginx-proxy",
