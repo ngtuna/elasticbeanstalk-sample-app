@@ -1,11 +1,11 @@
 {
-  "AWSEBDockerrunVersion": 2,
-  "containerDefinitions": [
-    {
-      "name": "php-app",
-      "image": "php:fpm",
-      "essential": true,
-      "memory": 128
-    }
-  ]
+   "AWSEBDockerrunVersion": "2",
+   "containerDefinitions": [
+      {
+         "name": "1",
+         "image": "1",
+         "essential": true,
+         "memory": 128
+      }
+   ]
 }
