@@ -3,13 +3,13 @@
   "containerDefinitions": [
     {
       "name": "python-app",
-      "image": "tuna/docker-counter23",
+      "image": "chanhlv93/nginx-demo",
       "essential": true,
       "memory": 1024,
       "portMappings": [
         {
           "hostPort": 80,
-          "containerPort": 5000
+          "containerPort": 80
         }
       ]
     }
