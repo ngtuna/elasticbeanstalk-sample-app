@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "python-app",
-      "image": "chanhlv93/python-demo",
+      "image": "tuna/docker-counter23",
       "essential": true,
       "portMappings": [
         {
