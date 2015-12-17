@@ -5,6 +5,7 @@
       "name": "python-app",
       "image": "tuna/docker-counter23",
       "essential": true,
+      "memory": 1024,
       "portMappings": [
         {
           "hostPort": 80,
